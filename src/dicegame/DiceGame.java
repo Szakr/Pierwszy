@@ -27,7 +27,7 @@ public class DiceGame {
            mają metodę guess(), a to jest dla poniższego kodu najważniejsze.
         */
         
-        Player player = new PlayerComp("Waldek");    //obiekt komputerowego gracza
+        Player player = new PlayerComp("Bob");    //obiekt komputerowego gracza
 //        Player player = new PlayerHuman("Marian");   //obiekt gracza-człowieka
         
         // próbujemy ustawić puste, czyli niepoprawne imię
