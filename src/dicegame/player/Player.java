@@ -8,9 +8,7 @@ package dicegame.player;
 
 public abstract class Player {
 
-    /**
-     * Konstruktory
-     */
+
     public Player() {
         name = "Anonim";
     }
@@ -18,12 +16,7 @@ public abstract class Player {
     public Player(String name) {
         this.name = name;
     }    
-    
-    /**
-     * Pole nazwy (imienia) gracza.
-     * 
-     * Pole jest prywatne, więc dostarczamy setter i getter.
-     */
+
     private String name;
     
     public void setName(String name) {
@@ -40,11 +33,7 @@ public abstract class Player {
         return name;
     }
         
-    /**
-     * Metoda zwraca odgadniętą liczbę (strzał).
-     * 
-     * @return odgadnięta liczba 
-     */
+
     public abstract int guess();
     
 }
